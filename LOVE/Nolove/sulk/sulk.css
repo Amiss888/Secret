@@ -1,0 +1,31 @@
+@media (max-width: 430px) {
+    body {
+        background-image: url(../../img/back.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Itim", cursive ;
+    }
+
+    main{
+        display: block;
+        text-align: center;
+    }
+
+    p{
+        font-size: 32px;
+        font-weight: 500;
+        margin: 0 0 20px;
+        background-color: white;
+        padding: 10px 25px;
+        box-shadow: 0 0 13px rgb(255, 93, 120);
+        border-radius: 30px;
+    }
+
+    img {
+        width: 200px;
+        margin: 230px 0 20px 0;
+    }
+
+}

@@ -1,0 +1,41 @@
+@media (max-width: 430px) {
+    body {
+        background-image: url(../../img/back.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Itim", cursive ;
+    }
+
+    main {
+        display: block;
+        text-align: center;
+    }
+
+    img {
+        width: 200px;
+        margin: 150px 0 10px 0;
+    }
+
+    p {
+        font-size: 36px;
+        font-weight: 500;
+        margin: 0 0 30px;
+        background-color: white;
+        padding: 10px 20px;
+        box-shadow: 0 0 13px rgb(255, 93, 120);
+        border-radius: 30px;
+        width: 300px;
+    }
+
+    #gift{
+        background-color: white;
+        font-size: 36px;
+        padding: 10px 25px;
+        border: 2px solid rgb(251, 166, 238);
+        border-radius: 30px;
+        font-family: "Itim", cursive ;
+        box-shadow: 5px 5px 10px rgb(248, 0, 231);
+    }
+}
